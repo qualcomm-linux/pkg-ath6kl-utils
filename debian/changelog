@@ -1,4 +1,4 @@
-ath6kl-utils (1.0.0-1) UNRELEASED; urgency=medium
+ath6kl-utils (1.0.0-2) UNRELEASED; urgency=medium
 
   * Update upstream source to 260825/prebuilt_resolute/ath6kl-utils_1.0.0_arm64.tar.gz
 
