@@ -17,7 +17,7 @@ override_dh_auto_clean:
 override_dh_auto_install:
 	# -------- ath6kl-utils--------
 	mkdir -p debian/ath6kl-utils/usr/bin
-	cp -a data/ath6kl-utils/arm64/usr/bin/* debian/ath6kl-utils/usr/bin/
+	cp -a ath6kl-utils/arm64/usr/bin/* debian/ath6kl-utils/usr/bin/
 
 override_dh_install:
 	:
