@@ -1,16 +1,20 @@
 Source: ath6kl-utils
-Section: utils
-Priority: optional
 Maintainer: Jing Feng <jinfen@qti.qualcomm.com>
+Standards-Version: 4.7.4
+Section: non-free/utils
 Build-Depends:
  debhelper-compat (= 13),
+Build-Depends-Arch:
  libglib2.0-dev,
  libnl-3-dev,
- libnl-genl-3-dev
-Standards-Version: 4.6.2
-Rules-Requires-Root: no
+ libnl-genl-3-dev,
+Vcs-Browser: https://github.com/qualcomm-linux/pkg-ath6kl-utils
+Vcs-Git: https://github.com/qualcomm-linux/pkg-ath6kl-utils.git
 
 Package: ath6kl-utils
 Architecture: arm64
 Description: Qualcomm proprietary ath6kl-utils WLAN component
  Proprietary prebuilt binary package for ath6kl-utils.
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
